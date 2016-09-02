@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true"
+          android:drawable="@color/dialog_list_item_bg_s" />
+    <item android:state_focused="true"
+          android:drawable="@color/dialog_list_item_bg_s" />
+    <item android:state_pressed="true"
+          android:drawable="@color/dialog_list_item_bg_s" />
+    <item
+          android:drawable="@color/dialog_list_item_bg_n" />
+</selector>
